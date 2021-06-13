@@ -80,8 +80,8 @@ let notes = new Notes;
 
 newNote.addEventListener('click', () => {
   notes.createNote();
-})
+});
 
 deleteNote.addEventListener('click', () => {
   notes.deleteNote();
-})
+});
