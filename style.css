@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  width: 1140px;
+  margin: 50px auto;
+  justify-content: center;
+}
+.nav-panel {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.note-list {
+  list-style: none;
+}
+.note {
+  margin: 10px;
+}
+.note-btn {
+  padding: 10px 25px;
+}
+.new-note {
+  padding: 10px 25px;
+}
+
+.active-note {
+  border: 2px dotted red;
+}
+.space {
+  display: none;
+}
+.active {
+  display: block;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+}
+.delete {
+  padding: 10px 25px;
+  margin-top: 15px;
+}
