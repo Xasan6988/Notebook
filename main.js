@@ -1,5 +1,6 @@
 const newNote = document.querySelector('.new-note');
 const deleteNote = document.querySelector('.delete');
+const saveBtn = document.querySelector('.save');
 let id = 0;
 
 class Notes {
@@ -56,7 +57,7 @@ class HTML {
   }
   _createField() {
     let field = document.createElement('textarea');
-    field.setAttribute('id', 'input');
+    // field.setAttribute('id', 'input');
     field.setAttribute('cols', '70');
     field.setAttribute('rows', '30');
     field.classList.add('space');
